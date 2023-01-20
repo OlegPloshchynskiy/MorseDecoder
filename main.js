@@ -56,7 +56,7 @@ function decoderMorse(string) {
 
     let result = decoding.join("");
     // console.log(result);
-    document.write(result)
+    document.write(`<h1> ${result} </h1>`)
 
 }
 
