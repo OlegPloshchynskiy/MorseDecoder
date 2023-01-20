@@ -55,9 +55,11 @@ function decoderMorse(string) {
     });
 
     let result = decoding.join("");
-    console.log(result);
+    // console.log(result);
+    document.write(result)
 
 }
 
+// .... .- .-.. .--. -·-·--  -.-.--     -- --- .-. ... .     -.-. --- -.. .     .. ...     -.. .-. .. ...- .. -. --.     -- .     -. ..- - ... -·-·--
 
 decoderMorse()
